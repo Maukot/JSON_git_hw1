@@ -2,7 +2,7 @@
 	"Bug ID": 01,
 	"Title": "Inscription on the 'Register' button is aligned incorrectly",
 	"Tester": "Stoliarova L.",
-	"Date": 15.06.2022,
+	"Date": 2022-06-15,
 	"Project": "fictional",
 	"Component": "main",
 	"Version": 1.0,
@@ -14,17 +14,17 @@
 			"Steps to reproduce": [
 				"1. Open the main page http://***.ru",
 				"2. Scroll down to the registration form"
-				]
-			"Attachment": "printscreen"
+				],
+			"Attachment": "printscreen",
 			"Environment": "Google Chrome, Windows 10"
 			}
-	]
+	],
 	"Administrative": [
 		{
-			"Severity": "Minor"
-			"Priority": "Low"
-			"Assigned to"
-			"Bug status"
+			"Severity": "Minor",
+			"Priority": "Low",
+			"Assigned to": "Somebody",
+			"Bug status": "open"
 		}
 	]
 }
