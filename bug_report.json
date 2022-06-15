@@ -1,1 +1,30 @@
-
+{
+	"Bug ID": 01
+	"Title": "Inscription on the "Register" button is aligned incorrectly",
+	"Tester": "Stoliarova L.",
+	"Date": 15/06/2022,
+	"Project": "fictional",
+	"Component": "main",
+	"Version": 1.0,
+	"Bug description": [
+		{ 
+			"Summary": ""Register" word on the button is right-aligned",
+			"Expected result": ""Register" word on the button is centered",
+			"Actual result": ""Register" word on the button is right-aligned",
+			"Steps to reproduce": [
+				"1. Open the main page http://***.ru",
+				"2. Scroll down to the registration form"
+				]
+			"Attachment": "printscreen"
+			"Environment": "Google Chrome, Windows 10"
+			}
+	]
+	"Administrative": [
+		{
+			"Severity": "Minor"
+			"Priority": "Low"
+			"Assigned to"
+			"Bug status"
+		}
+	]
+}
