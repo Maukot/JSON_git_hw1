@@ -1,11 +1,11 @@
 {
-	"Bug ID": 01,
+	"Bug ID": "01",
 	"Title": "Inscription on the 'Register' button is aligned incorrectly",
 	"Tester": "Stoliarova L.",
-	"Date": 2022-06-15,
+	"Date": "2022-06-15",
 	"Project": "fictional",
 	"Component": "main",
-	"Version": 1.0,
+	"Version": "1.0",
 	"Bug description": [
 		{ 
 			"Summary": "'Register' word on the button is right-aligned",
