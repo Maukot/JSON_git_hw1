@@ -1,0 +1,79 @@
+== 4. Создать внешний репозиторий с названием JSON (я назвала JSON_git_hw1)
+Create repository (Repository name: JSON_git_hw1; add a Readme file)
+
+== 5. Клонировать репозиторий на локальный компьютер
+Code - HTTPS - копировать ссылку
+В гит баш в моей папке курса делаю git clone ссылка
+
+== 6. Внутри локального JSON создать файл new.json
+cd JSON_git_hw1/
+touch new.json #в git bash
+
+== 7. Добавить файл под гит (сделать так, чтобы он отслеживался гитом)
+git add new.json   
+git status                              # необязательно, просто чтобы проверить, что файл добавился
+                   
+== 8. Закоммитить файл (создать снимок текущего состояния проекта)
+git commit -m "add the first file" #-m добавляет коммент к коммиту, в нем описываю изменения
+
+== 9. Отправить файл на внешний репозиторий
+git push
+
+== 10. Отредактировать содержимое new.json в формате json
+vim new.json
+режим редактирования i
+	{
+		"fullName": "Stoliarova Liubov",
+		"age": "33",
+		"petNumber": "0",
+		"salary": "1000$"
+	}	
+:wq
+
+== 11. Отправить изменения на внешний репозиторий
+git add new.json
+git commit -m "add json data to the file"
+git push
+
+== 12, 13. Создать файл preferences.json и добавить инфу в формате json
+$ cat >> preferences.json
+{
+        "movie": "Не может быть",
+        "tvSeries": "Game of thrones",
+        "food": "dolma",
+        "season": "summer",
+        "country": "USA"
+}
+
+== 14. Создать файл skills.json и добавить инфу о скиллах с курса в формате json
+$ vim skills.json
+{
+	"skills": [
+		"terminal",
+		"git",
+		"postman",
+		"JS",
+		"VScode"
+	]
+}
+
+== 15. Отправить сразу 2 файла на внешний репозиторий
+git add .                                        #git add . добавит всё содержимое папки
+git commit -m "add 2 json files"
+git push
+
+== 16. На веб-интерфейсе создать файл bug_report.json
+кнопка Add file
+
+== 17. Сохранить изменения на веб-интерфейсе
+кнопка Commit new file
+
+== 18. На веб интерфейсе модифицировать файл, добавить баг репорт в формате json
+Edit this file (карандашик)
+
+== 19. Сохранить изменения на веб-интерфейсе
+кнопка Commit changes
+
+== 20. Синхронизировать внешний и локальный репозиторий 
+git fetch   #необязательно
+git pull
